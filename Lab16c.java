@@ -21,6 +21,13 @@ public class Lab16c
 		System.out.println("\nnumber of vowels in the words removed == " + vowelsRemoved);
 		System.out.println("\n\n");
 
+		
+		System.out.println("Count of specific vowels");
+		System.out.println("The total count of words with 1 vowels: " + test.countWordsWithXVowels(1));
+		System.out.println("The total count of words with 2 vowels: " + test.countWordsWithXVowels(2));
+		System.out.println("The total count of words with 3 vowels: " + test.countWordsWithXVowels(3));
+		System.out.println("The total count of words with 3 vowels: " + test.countWordsWithXVowels(4));
+
 
 		//more test cases
 
